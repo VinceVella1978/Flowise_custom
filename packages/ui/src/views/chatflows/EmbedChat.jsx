@@ -126,7 +126,7 @@ const chatwindowConfig = (isReact = false) => {
     return isReact
         ? `chatWindow: {
                     showTitle: true,
-                    title: 'Flowise Bot',
+                    title: 'Demo',
                     titleAvatarSrc: 'https://raw.githubusercontent.com/walkxcode/dashboard-icons/main/svg/google-messages.svg',
                     showAgentMessages: true,
                     welcomeMessage: 'Hello! This is custom welcome message',
@@ -166,14 +166,14 @@ const chatwindowConfig = (isReact = false) => {
                     },
                     footer: {
                         textColor: '#303235',
-                        text: 'Powered by',
-                        company: 'Flowise',
-                        companyLink: 'https://flowiseai.com',
+                        text: 'Demo by',
+                        company: 'EY Fabernovel',
+                        companyLink: 'https://www.fabernovel.com/',
                     }
                 }`
         : `chatWindow: {
                 showTitle: true,
-                title: 'Flowise Bot',
+                title: 'Demo',
                 titleAvatarSrc: 'https://raw.githubusercontent.com/walkxcode/dashboard-icons/main/svg/google-messages.svg',
                 showAgentMessages: true,
                 welcomeMessage: 'Hello! This is custom welcome message',
@@ -213,9 +213,9 @@ const chatwindowConfig = (isReact = false) => {
                 },
                 footer: {
                     textColor: '#303235',
-                    text: 'Powered by',
-                    company: 'Flowise',
-                    companyLink: 'https://flowiseai.com',
+                    text: 'Demo by',
+                    company: 'EY Fabernovel',
+                    companyLink: 'https://www.fabernovel.com/',
                 }
             }`
 }
